@@ -105,8 +105,8 @@ aireplay-ng --test wlan2
 ## Credits
 
 - [edbastida](https://github.com/edbastida/Kernel_Stone_DarkHuntermoon-Reborn) — Original stone Nethunter Builder Script
-- [kamikaonashi](https://github.com/kamikaonashi/kernel_xiaomi_stone) — kernel base (Darkmoon-Reborn)
-- [osm0sis](https://github.com/osm0sis/AnyKernel3) — AnyKernel3
+- [crDroid](https://github.com/crdroidandroid/android_kernel_xiaomi_stone) — kernel base (crDroid Kernel)
+- [ItsVixano](https://github.com/ItsVixano/AnyKernel3/tree/gemstone-aosp) — AnyKernel3 for stone
 - [kimocoder](https://github.com/aircrack-ng) — qcacld-3.0 packet injection upstream
 - **Loukious** — co-author of the base injection patch
 - **Madara273** — qcacld-3.0 5.4.302 port and ABI fixes
