@@ -1,21 +1,12 @@
-<p align="center">
-  <img src="assets/logo.jpg" alt="DarkHunterMoon-Reborn" width="320" />
-</p>
 
-<h1 align="center">DarkHunterMoon-Reborn</h1>
-<p align="center"><i>NetHunter Kernel for POCO X5 5G / Redmi Note 12 5G</i></p>
-
-<p align="center">
-  <a href="https://github.com/edbastida/Kernel_Stone_DarkHuntermoon-Reborn/releases/latest"><img src="https://img.shields.io/github/v/release/edbastida/Kernel_Stone_DarkHuntermoon-Reborn?style=flat-square" alt="Release" /></a>
-  <img src="https://img.shields.io/badge/kernel-5.4.302-blue?style=flat-square" alt="Kernel" />
-  <img src="https://img.shields.io/badge/Android-16-green?style=flat-square" alt="Android" />
-  <img src="https://img.shields.io/badge/wlan0%20injection-working-success?style=flat-square" alt="Injection" />
-</p>
+<h1 align="center">crDroid NetHunter Kernel</h1>
+<p align="center"><i>NetHunter Kernel based on crDroid for POCO X5 5G / Redmi Note 12 5G</i></p>
+<p align="center"><i>Originally made by edbastida, modified by harifhaqim(mikhailsimon)</i></p>
 
 > **Devices:** stone · moonstone · sunstone
 > **SoC:** Snapdragon 695 5G (SM6375)
-> **Kernel:** 5.4.302 (DarkHunterMoon-Reborn)
-> **Tested ROM:** Matrixx AOSP (Android 16)
+> **Kernel:** 5.4.302 (crDroid-nethunter-ms)
+> **Tested ROM:** crDroid 12.11 (Android 16)
 
 ---
 
@@ -52,7 +43,7 @@
 
 ### Quick start
 ```bash
-git clone https://github.com/edbastida/nethunter-stone
+git clone https://github.com/harifhaqim/crdroid_nethunter_builder
 cd nethunter-stone
 bash build.sh
 # ZIP → out/zip/nethunter-stone-5.4.302-<date>.zip
@@ -93,7 +84,7 @@ adb reboot recovery
 
 ```bash
 # Kernel version
-uname -r   # 5.4.302-Darkmoon-Reborn
+uname -r   # 5.4.302-crDroid-nethunter-ms
 
 # Connect USB adapter → check interface
 iwconfig   # wlan2 present
@@ -113,6 +104,7 @@ aireplay-ng --test wlan2
 
 ## Credits
 
+- [edbastida](https://github.com/edbastida/Kernel_Stone_DarkHuntermoon-Reborn) — Original stone Nethunter Builder Script
 - [kamikaonashi](https://github.com/kamikaonashi/kernel_xiaomi_stone) — kernel base (Darkmoon-Reborn)
 - [osm0sis](https://github.com/osm0sis/AnyKernel3) — AnyKernel3
 - [kimocoder](https://github.com/aircrack-ng) — qcacld-3.0 packet injection upstream
